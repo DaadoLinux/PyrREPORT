@@ -1,0 +1,65 @@
+/* Základný štýl pre telo stránky */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Svetlá šedá farba pozadia */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Kontajner, ktorý drží obsah stránky */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    border: 2px solid #e74c3c; /* Červená farba okraja pre požiarne spojenie */
+}
+
+/* Nadpisy a dôležité texty */
+h1, h2, h3 {
+    color: #e74c3c; /* Použitie červenej pre nadpisy */
+}
+
+/* Text */
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Odstavec pre upozornenie */
+strong {
+    color: #e74c3c; /* Červené upozornenie */
+}
+
+/* Zoznam pravidiel */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Tlačidlá (aj keď momentálne nie sú použité) */
+button {
+    background-color: #e74c3c; /* Červené tlačidlo */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c0392b; /* Tmavšia červená pre efekt pri hover */
+}
